@@ -1,0 +1,21 @@
+{
+  "name": "squelize1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=development node --watch src/main.js",
+    "start:prod": "cross-env NODE_ENV=production node --watch src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.5",
+    "sequelize": "^6.37.8"
+  }
+}
